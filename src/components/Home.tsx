@@ -3,7 +3,7 @@
 // Inner project imports
 
 
-const Home = props => {
+const Home = () => {
     // render
     return (
         <>
