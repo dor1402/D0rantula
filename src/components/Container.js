@@ -1,11 +1,41 @@
 // Outer project imports
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 // Inner project imports
+import Home from './Home';
 
+// global variables
+const routes = [
+    { path: "/", component: <Home /> },
+]
 
 const Container = () => {
+
+
+    // render
     return (
-        <h1>dor</h1>
+        <>
+            <Router>
+                <Switch>
+                    {routes.map(
+                        (item) => {
+                            return (
+                                <Route path={item.path}>
+                                    {item.component}
+                                </Route>
+                            )
+                        }
+                    )}
+                </Switch>
+            </Router>
+        </>
+
     )
 }
 
