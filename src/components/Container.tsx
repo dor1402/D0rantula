@@ -3,12 +3,11 @@ import React from "react";
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from "react-router-dom";
 
 // Inner project imports
-import Home from './Home';
+import Home from './Home/Home';
 
 // global variables
 const routes = [
@@ -26,7 +25,7 @@ const Container = () => {
                     {routes.map(
                         (item) => {
                             return (
-                                <Route path={item.path}>
+                                <Route key={item.path} path={item.path}>
                                     {item.component}
                                 </Route>
                             )
