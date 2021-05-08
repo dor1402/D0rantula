@@ -1,0 +1,12 @@
+v 1.0:
+    Background: 
+        - make the usual shapes bg
+        - make each shape re-render in a new position or something
+        ? change the shapes to flying bytes
+
+    Content:
+        - build a skeleton which can react to scrolling
+        - about me section
+        - socials section
+        - projects section:
+            - build a container which can display a project inside
