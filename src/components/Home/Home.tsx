@@ -29,7 +29,6 @@ const Home = () => {
                 <img className={"logo"} src={finalLogo} alt="logo"/>
                 </div>
             </Slide>
-            <h1 className={"header"}>D0rantula</h1>
         </div >
         
     )
