@@ -18,7 +18,7 @@
     "typescript": "^4.2.4",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://www.d0rantula.com/",
+  "homepage": "https://dor1402.github.io/D0rantula/",
 
   "scripts": {
     "predeploy": "npm run build",
