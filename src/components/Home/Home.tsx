@@ -27,6 +27,7 @@ const Home = () => {
             <Slide direction="up" in={checked} timeout={1000} mountOnEnter unmountOnExit>
                 <div className="slide">
                 <img className={"logo"} src={finalLogo} alt="logo"/>
+                <h1 style={{color: "whitesmoke"}}>kobi ma boy</h1>
                 </div>
             </Slide>
         </div >
