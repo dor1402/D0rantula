@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/D0rantula/static/css/main.ab6233a9.chunk.css",
+    "main.js": "/D0rantula/static/js/main.3d3b34cf.chunk.js",
+    "main.js.map": "/D0rantula/static/js/main.3d3b34cf.chunk.js.map",
+    "runtime-main.js": "/D0rantula/static/js/runtime-main.7929f677.js",
+    "runtime-main.js.map": "/D0rantula/static/js/runtime-main.7929f677.js.map",
+    "static/js/2.c3906530.chunk.js": "/D0rantula/static/js/2.c3906530.chunk.js",
+    "static/js/2.c3906530.chunk.js.map": "/D0rantula/static/js/2.c3906530.chunk.js.map",
+    "static/js/3.b0eb1234.chunk.js": "/D0rantula/static/js/3.b0eb1234.chunk.js",
+    "static/js/3.b0eb1234.chunk.js.map": "/D0rantula/static/js/3.b0eb1234.chunk.js.map",
+    "index.html": "/D0rantula/index.html",
+    "static/css/main.ab6233a9.chunk.css.map": "/D0rantula/static/css/main.ab6233a9.chunk.css.map",
+    "static/js/2.c3906530.chunk.js.LICENSE.txt": "/D0rantula/static/js/2.c3906530.chunk.js.LICENSE.txt",
+    "static/media/finalLogo.bd9edf97.png": "/D0rantula/static/media/finalLogo.bd9edf97.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7929f677.js",
+    "static/js/2.c3906530.chunk.js",
+    "static/css/main.ab6233a9.chunk.css",
+    "static/js/main.3d3b34cf.chunk.js"
+  ]
+}
