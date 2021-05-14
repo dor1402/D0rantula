@@ -1,6 +1,6 @@
 // Outer project imports
 import Slide from '@material-ui/core/Slide';
-import { useState, useEffect, createRef } from 'react';
+import { useState, useEffect, createRef, FunctionComponent} from 'react';
 
 // Inner project imports
 import '../../Assets/CSS/Home.css';
@@ -8,7 +8,7 @@ import finalLogo from '../../Assets/Images/finalLogo.png';
 import coolLogo from '../../Assets/Images/coolLogo.png'
 
 
-const Home = () => {
+const Home: FunctionComponent = () => {
     // variables
     const ref = createRef();
 
