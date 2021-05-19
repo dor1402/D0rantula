@@ -8,14 +8,15 @@ import Shape from './Shape/Shape';
  * @returns array of objects
  */
 const generateShapes = (amount: Number): Array<JSX.Element> => {
-    let shapeArrays: Array<JSX.Element>
+    let shapeArrays: Array<JSX.Element> = []
     for (const index in amount) {
-        
+        shapeArrays.push(<Shape key={index} />)
     }
     return (
-       [] 
+       shapeArrays 
     )
 }
+
 interface bgFunctionsInterface {
     generateShapes: Function
 }

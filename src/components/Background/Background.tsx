@@ -22,7 +22,7 @@ const Background: FunctionComponent<BackgroundProps>  = (props: BackgroundProps)
                 {bgFunctions.generateShapes(props.amount).map(
                     (shape: JSX.Element, index: number) => {
                         return (
-                            <li key={index}>{shape}</li>
+                            {shape}
                         )
                     }
                 )}
