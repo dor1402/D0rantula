@@ -14,7 +14,7 @@ const generateShapeStyles = (left: number, width: number, height: number, speed:
             // the css of a li element which is displayd in the dom as a shape
             left: `${left}%`,
             color: 'whitesmoke !important',
-            backgroundColor: 'whitesmoke !important',
+            background: 'whitesmoke !important',
             width: `${width}px`,
             height: `${height}px`,
             borderRadius: `75px`,
