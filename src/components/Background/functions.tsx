@@ -9,8 +9,8 @@ import Shape from './Shape/Shape';
  */
 const generateShapes = (amount: Number): Array<JSX.Element> => {
     let shapeArrays: Array<JSX.Element> = []
-    for (const index in amount) {
-        shapeArrays.push(<Shape key={index} />)
+    for (let index = 0; index < amount; index++) {
+        shapeArrays.push(<Shape speed={8} delay={2} key={index} />)
     }
     return (
        shapeArrays 

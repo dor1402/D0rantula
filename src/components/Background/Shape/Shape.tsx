@@ -5,7 +5,12 @@ import bgStyles from '../bgStyles';
 import config from '../../../config';
 import updateInterface from './updateInterface';
 
-const Shape: FunctionComponent = () => {
+export interface ShapeProps {
+    speed: Number,
+    delay: Number
+}
+
+const Shape: FunctionComponent<ShapeProps> = (props: ShapeProps) => {
     // hooks
     const [speed, setSpeed] = useState(Number);
     const [height, setHeight] = useState(Number);
@@ -13,7 +18,7 @@ const Shape: FunctionComponent = () => {
     const [width, setWidth] = useState(Number);
     const [left, setLeft] = useState(Number)
     const [style, setStyle] = useState(Object);
-    const [timer, setTimer] = useState(Number);
+    const [timer, setTimer] = useState(speed + delay);
     
     // variables
     const updater = [ // array which contains object from the updateInterface interface
@@ -23,9 +28,10 @@ const Shape: FunctionComponent = () => {
         {cb: setDelay, min: config.minDelay, max: config.maxDelay},
         {cb: setLeft, min: config.minLeft, max: config.maxLeft}
     ]
+    
 
     // main
-    setTimer(speed ? speed : 0 + delay ? delay : 0);
+    
     setInterval(() => {
         // set all the styles
         updater.map(

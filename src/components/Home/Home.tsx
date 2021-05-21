@@ -6,6 +6,7 @@ import { useState, useEffect, createRef, FunctionComponent} from 'react';
 import '../../Assets/CSS/Home.css';
 import finalLogo from '../../Assets/Images/finalLogo.png';
 import coolLogo from '../../Assets/Images/coolLogo.png'
+import Background from '../Background/Background';
 
 
 const Home: FunctionComponent = () => {
@@ -23,6 +24,7 @@ const Home: FunctionComponent = () => {
 
     // render
     return ( 
+        <>
         <div className="container">
             <Slide direction="up" in={checked} timeout={1000} mountOnEnter unmountOnExit>
                 <div className="slide">
@@ -31,6 +33,8 @@ const Home: FunctionComponent = () => {
                 </div>
             </Slide>
         </div >
+        <Background amount={6} />
+        </>
         
     )
 }

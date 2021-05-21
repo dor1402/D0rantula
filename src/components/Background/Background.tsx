@@ -2,8 +2,8 @@
 import { FunctionComponent } from 'react';
 
 // Inner project imports
-import Shape from './Shape/Shape';
 import bgFunctions from './functions';
+import '../../Assets/CSS/Background.css';
 
 // props interface
 export interface BackgroundProps {
@@ -18,11 +18,11 @@ const Background: FunctionComponent<BackgroundProps>  = (props: BackgroundProps)
     // render
     return (
         <div className="background">
-            <ul>
+            <ul className="box-area">
                 {bgFunctions.generateShapes(props.amount).map(
-                    (shape: JSX.Element, index: number) => {
+                    (shape: JSX.Element) => {
                         return (
-                            {shape}
+                            shape
                         )
                     }
                 )}
