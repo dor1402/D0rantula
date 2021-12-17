@@ -14,12 +14,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "typescript": "^4.2.4",
     "web-vitals": "^1.1.2"
   },
   "homepage": "https://dor1402.github.io/D0rantula/",
-
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b dev -d build",
